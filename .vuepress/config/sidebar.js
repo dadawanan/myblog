@@ -14,11 +14,12 @@ const frontend = [
     title: 'JavaScript',
     collapsable: false,
     children: [
-      'js/JavaScript基础知识梳理-上',
-      'js/JavaScript基础知识梳理-下',
-      'js/正则表达式',
-      'js/前端面试中常考的源码实现',
-      'js/JavaScript高级程序设计-读书笔记',
+      'js/js基础知识上',
+      'js/js基础知识下',
+      // 'js/JavaScript基础知识梳理-下',
+      // 'js/正则表达式',
+      // 'js/前端面试中常考的源码实现',
+      // 'js/JavaScript高级程序设计-读书笔记',
     ]
   },
   {
@@ -30,38 +31,38 @@ const frontend = [
       'es6/谈谈promise-async-await的执行顺序与V8引擎的BUG'
     ]
   },
-  {
-    title: 'HTML5',
-    collapsable: false,
-    children: [
-      'html5/canvas学习和滤镜实现',
-      'html5/canvas离屏技术与放大镜实现',
-      'html5/HTML5原生拖放事件的学习与实践',
-      'html5/FileAPI文件操作实战',
-      'html5/websocket学习和群聊实现',
-      'html5/ServiceWorker离线缓存实战',
-    ]
-  },
-  {
-    title: '浏览器与安全',
-    collapsable: false,
-    children: [
-      '浏览器与安全/SSL连接并非完全安全问题解决',
-      '浏览器与安全/浏览器常见考点',
-      '浏览器与安全/Web安全与防护'
-    ]
-  },
-  {
-    title: '开发实战',
-    collapsable: false,
-    children: [
-      '开发实战/MathJax-让前端支持数学公式',
-      '开发实战/momentjs使用详解',
-      '开发实战/axios全局代理实战',
-      '开发实战/React中的组件通信',
-      '开发实战/微信网页登录逻辑与实现',
-    ]
-  }
+  // {
+  //   title: 'HTML5',
+  //   collapsable: false,
+  //   children: [
+  //     'html5/canvas学习和滤镜实现',
+  //     'html5/canvas离屏技术与放大镜实现',
+  //     'html5/HTML5原生拖放事件的学习与实践',
+  //     'html5/FileAPI文件操作实战',
+  //     'html5/websocket学习和群聊实现',
+  //     'html5/ServiceWorker离线缓存实战',
+  //   ]
+  // },
+  // {
+  //   title: '浏览器与安全',
+  //   collapsable: false,
+  //   children: [
+  //     '浏览器与安全/SSL连接并非完全安全问题解决',
+  //     '浏览器与安全/浏览器常见考点',
+  //     '浏览器与安全/Web安全与防护'
+  //   ]
+  // },
+  // {
+  //   title: '开发实战',
+  //   collapsable: false,
+  //   children: [
+  //     '开发实战/MathJax-让前端支持数学公式',
+  //     '开发实战/momentjs使用详解',
+  //     '开发实战/axios全局代理实战',
+  //     '开发实战/React中的组件通信',
+  //     '开发实战/微信网页登录逻辑与实现',
+  //   ]
+  // }
 ]
 
 const ui = [
@@ -312,13 +313,13 @@ const algorithmOffer = [
 ]
 
 module.exports = {
-  '/Git实战手册/': git,
-  '/云开发技术/': cloud,
-  '/前端知识体系/': frontend,
-  '/设计模式手册/': design,
-  '/每周分享/': weekly,
-  '/webpack4系列教程/': webpack4,
-  '/NodeJS/': nodejs,
-  '/UI设计/': ui,
-  '/剑指offer刷题笔记/': algorithmOffer,
+  // '/Git实战手册/': git,
+  // '/云开发技术/': cloud,
+  '/前端基础/': frontend,
+  // '/设计模式手册/': design,
+  // '/每周分享/': weekly,
+  // '/webpack4系列教程/': webpack4,
+  // '/NodeJS/': nodejs,
+  // '/UI设计/': ui,
+  // '/剑指offer刷题笔记/': algorithmOffer,
 }

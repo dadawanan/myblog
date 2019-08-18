@@ -1,12 +1,12 @@
 module.exports = {
   '/': {
     lang: 'zh-CN',
-    title: '心谭博客',
-    description: '用心，谈技术。已有前端知识体系梳理、设计模式手册、Webpack4教程，欢迎食用'
+    title: '晚安De博客',
+    description: '记录每周的学习记录，周更'
   },
-  '/en/': {
-    lang: 'en-US',
-    title: 'XinTan Blog',
-    description: 'Passages about frontend, design patterns, algorithm and so on.'
-  }
+  // '/en/': {
+  //   lang: 'en-US',
+  //   title: 'XinTan Blog',
+  //   description: 'Passages about frontend, design patterns, algorithm and so on.'
+  // }
 }

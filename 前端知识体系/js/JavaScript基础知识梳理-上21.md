@@ -1,7 +1,7 @@
 ---
 title: "JavaScript基础知识梳理(上)"
 date: "2019-03-26"
-permalink: "2019-03-26-javascript-first"
+permalink: "2019-03-26-javascript"
 ---
 
 👇 内容速览 👇

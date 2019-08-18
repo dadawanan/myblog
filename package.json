@@ -23,12 +23,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dongyuanxin/blog.git"
+    "url": "git+https://github.com/dadawanan/blog.git"
   },
-  "author": "心谭",
+  "author": "晚安",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dongyuanxin/blog/issues"
+    "url": "https://github.com/dadawanan/blog/issues"
   },
-  "homepage": "https://github.com/dongyuanxin/blog#readme"
+  "homepage": "https://github.com/dadawanan/blog#readme"
 }
