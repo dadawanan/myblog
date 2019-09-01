@@ -31,6 +31,13 @@ const frontend = [
       'es6/谈谈promise-async-await的执行顺序与V8引擎的BUG'
     ]
   },
+  {
+    title: '手写原理',
+    collapsable: false,
+    children: [
+      '手写大全/手写Promise',
+    ]
+  },
   // {
   //   title: 'HTML5',
   //   collapsable: false,
