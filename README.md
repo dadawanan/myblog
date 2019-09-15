@@ -35,7 +35,7 @@ footer: MIT Licensed | Copyright © 2019 晚安
 
 ## 📮 联系
 
-- **微信**: fyq520
+- **微信**: fangyiquan520
 - **Email**: h1159827456@gmail.com
 - **QQ**: 1159827456
 
