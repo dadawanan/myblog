@@ -36,6 +36,7 @@ const frontend = [
     collapsable: false,
     children: [
       '手写大全/手写Promise',
+      '手写大全/call、apply、bind实现'
     ]
   },
   // {
