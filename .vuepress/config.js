@@ -1,19 +1,20 @@
 const {
   mdConf,
   themeConf,
-  localesConf,
+  localesConf
 } = require('./config/')
 
 module.exports = {
   locales: localesConf,
   markdown: mdConf,
   themeConfig: themeConf,
+  base: '/blog/',
   plugins: [
     require('./plugins/my-router'),
     require('./plugins/my-loader'),
     require('vuepress-plugin-viewer'),
     '@vuepress/back-to-top',
-    [ 
+    [
       '@vuepress/google-analytics', { 'ga': 'UA-124601890-1' }
     ],
     [
@@ -29,9 +30,9 @@ module.exports = {
     [
       'vuepress-plugin-comment',
       {
-        choosen: 'gitalk', 
+        choosen: 'gitalk',
         options: {
-          clientID: 'b9199aaf56b930bad30d',
+          clientID: '2d47e91a3f4db035686a',
           clientSecret: process.env.clientSecret || '',
           repo: 'myblog',
           owner: 'dadawanan',

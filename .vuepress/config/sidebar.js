@@ -14,8 +14,9 @@ const frontend = [
     title: 'JavaScript',
     collapsable: false,
     children: [
-      'js/js基础知识上',
-      'js/js基础知识下',
+      'js/js基础知识(1)',
+      'js/js基础知识(2)',
+      'js/js基础知识(3)',
       // 'js/JavaScript基础知识梳理-下',
       // 'js/正则表达式',
       // 'js/前端面试中常考的源码实现',

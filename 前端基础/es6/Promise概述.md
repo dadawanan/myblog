@@ -1,7 +1,7 @@
 ---
 title: Promise 概述
-date: 2018-05-23
-permalink: "2018-05-23-es-promise"
+date: "2019-10-28"
+permalink: "es6(1)"
 ---
 
 ## 关于`Promise`

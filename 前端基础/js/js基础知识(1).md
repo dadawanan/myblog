@@ -1,16 +1,8 @@
 ---
-title: "JavaScript基础知识(上)"
+title: "JavaScript基础知识(1)"
 date: "2019-08-18"
-permalink: "2019-08-18-javascript-top"
+permalink: "javascript(1)"
 ---
-
-👇 内容速览 👇
-
-- 普通函数和箭头函数的`this`
-- 原始数据类型及其判断和转化方法
-- 深浅拷贝及实现
-- JS 事件模型
-- 常见的高阶函数
 
 ### 普通函数和箭头函数的 this
 
@@ -121,6 +113,108 @@ ECMAScript 中定义了 7 种原始类型：
   - 判断是否是数组：`[1, 2, 3] instanceof Array`
 
 - Array.isArray()：ES6 新增，用来判断是否是'Array'。`Array.isArray({})`返回`false`。
+
+### Symbol类型在实际开发中的应用
+
+1.使用Symbol来替代常量,省去唯一写值的麻烦
+```javascript
+const TYPE=Symbol()
+```
+2.设置私有属性,无法遍历键值
+```javascript
+let size = Symbol('ksizeey')
+class Collection {
+    constructor() {
+        this[size] = 0
+    }
+    add(item) {
+        this[this[size]] = item
+        this[size]++
+    }
+    static sizeOf(instance) {
+        return instance[size]
+    }
+}
+let x = new Collection()
+console.log(Collection.sizeOf(x))//0
+x.add('foo')
+console.log(Collection.sizeOf(x))//1
+console.log(x)  //Collection { '0': 'foo', [Symbol(ksizeey)]: 1 }
+console.log(Object.keys(x)) //[ '0' ]
+console.log(Object.getOwnPropertyNames(x)) //[ '0' ]
+console.log(Object.getOwnPropertySymbols(x))//[ Symbol(ksizeey) ]
+```
+3.注册和捕获全局Symbol
+```javascript
+let sl1=Symbol.for('foo')
+let sl2=Symbol.for('foo')
+sl1 === sl2 //true  其中foo既是symbol注册表中键名，又是对自身的描述
+Symbol('bar') === Symbol('bar') //false  Symbol函数每次都会返回一个新的Symbol
+```
+
+### 实现一个简单版的Symbol
+
+```javascript
+
+
+(function () {
+    var root = this
+    var generateName = (function () {
+        //给key做唯一处理
+        var postfix = 0;
+        return function (descString) {
+            postfix++
+            return '@@' + descString + '_' + postfix
+        }
+    })()
+    var SymbolPolyfill = function Symbol(description) {
+        //不能实用new
+        if (this instanceof SymbolPolyfill) throw new TypeError('Symbol is not a constructor')
+        //如果symbol是一个对象应该转为字符串保存
+        var descString = description === undefined ? undefined : String(description)
+        //创建一个没有副作用的能转字符串的对象
+        var symbol = Object.create({
+            //对象的时候转字符串
+            toString: function () {
+                return this.__Name__
+            },
+            valueOf: function () {
+                throw new Error('Cannot convert a Symbol value')
+            }
+        })
+        //劫持对象设置值 不可枚举 不可写入 不能配置
+        Object.defineProperties(symbol, {
+            '_Description_': {
+                value: description,
+                writable: false,
+                enumerable: false,
+                configurable: false
+            },
+            '__Name__': {
+                value: generateName(descString),
+                writable: false,
+                configurable: false,
+                enumerable: false
+            }
+        })
+        return symbol
+    }
+    root.SymbolPolyfill = SymbolPolyfill
+})()
+
+var a = SymbolPolyfill('foo');
+var b = SymbolPolyfill('foo');
+
+console.log(a === b); // false
+console.log(a)
+console.log(b)
+var o = {};
+o[a] = 'hello';
+o[b] = 'hi';
+
+console.log(o); // Object { "@@foo_1": "hello", "@@foo_2": "hi" }
+```
+
 
 ### 原始类型转化
 
