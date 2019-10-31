@@ -22,7 +22,7 @@ const frontend = [
     ]
   },
   {
-    title: 'HTML5',
+    title: 'HTML和CSS',
     collapsable: false,
     children: [
       'HTML和CSS/canvas学习和滤镜实现',

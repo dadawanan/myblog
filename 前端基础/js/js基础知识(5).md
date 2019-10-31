@@ -1,7 +1,7 @@
 ---
-title: "JavaScript基础知识(4)"
+title: "JavaScript基础知识(5)"
 date: "2019-10-29"
-permalink: "javascript(4)"
+permalink: "javascript(5)"
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: "Service Worker离线缓存实战"
-date: "2019-04-02"
-permalink: "html5(4)"
+date: 2019-04-02
+permalink: "html5(5)"
 ---
 
 ## 背景介绍
