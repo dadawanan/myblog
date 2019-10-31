@@ -1,7 +1,7 @@
 ---
 title: "FileAPI 文件操作实战"
 date: "2019-07-15"
-permalink: "2019-07-15-file-api"
+permalink: "html5(3)"
 ---
 
 ## 介绍

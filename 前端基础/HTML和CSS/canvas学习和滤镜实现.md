@@ -1,7 +1,7 @@
 ---
 title: canvas学习和滤镜实现
 date: 2018-08-20
-permalink: "2018-08-20-canvas-beauty-filter"
+permalink: "html5(2)"
 ---
 
 > 最近学习了 HTML5 中的重头戏--`canvas`。利用 canvas，前端人员可以很轻松地、进行图像处理。其 API 繁多，这次主要学习常用的 API，并且完成以下两个代码：

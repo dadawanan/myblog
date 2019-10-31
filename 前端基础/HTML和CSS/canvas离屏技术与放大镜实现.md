@@ -1,7 +1,7 @@
 ---
 title: canvas离屏技术与放大镜实现
 date: 2018-08-30
-permalink: "2018-08-30-canvas-off-screen"
+permalink: "html5(1)"
 ---
 
 > 利用`canvas`除了可以实现滤镜，还可以利用**离屏技术**放大镜功能。

@@ -22,6 +22,18 @@ const frontend = [
     ]
   },
   {
+    title: 'HTML5',
+    collapsable: false,
+    children: [
+      'HTML和CSS/canvas学习和滤镜实现',
+      'HTML和CSS/canvas离屏技术与放大镜实现',
+      'HTML和CSS/HTML5原生拖放事件的学习与实践',
+      'HTML和CSS/FileAPI文件操作实战',
+      'HTML和CSS/websocket学习和群聊实现',
+      'HTML和CSS/ServiceWorker离线缓存实战',
+    ]
+  },
+  {
     title: 'ES6',
     collapsable: false,
     children: [
@@ -39,18 +51,6 @@ const frontend = [
       '手写大全/深拷贝'
     ]
   },
-  // {
-  //   title: 'HTML5',
-  //   collapsable: false,
-  //   children: [
-  //     'html5/canvas学习和滤镜实现',
-  //     'html5/canvas离屏技术与放大镜实现',
-  //     'html5/HTML5原生拖放事件的学习与实践',
-  //     'html5/FileAPI文件操作实战',
-  //     'html5/websocket学习和群聊实现',
-  //     'html5/ServiceWorker离线缓存实战',
-  //   ]
-  // },
   // {
   //   title: '浏览器与安全',
   //   collapsable: false,

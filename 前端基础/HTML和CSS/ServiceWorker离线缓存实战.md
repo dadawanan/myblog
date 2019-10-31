@@ -1,7 +1,7 @@
 ---
 title: "Service Worker离线缓存实战"
 date: "2019-04-02"
-permalink: "2019-04-02-pwa-service-worker"
+permalink: "html5(4)"
 ---
 
 ## 背景介绍

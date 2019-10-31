@@ -16,7 +16,7 @@ module.exports = {
           items: [
             { text: 'JavaScript', link: '/passages/javascript(1)/' },
             { text: 'ES6', link: '/passages/es6(1)/' },
-            { text: 'HTML和CSS', link: '' }
+            { text: 'HTML和CSS', link: '/passages/html5(1)' }
           ]
         },
         {
