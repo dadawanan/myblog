@@ -197,29 +197,3 @@ self.addEventListener("fetch", event => {
 });
 ```
 
-## 效果测试
-
-启动服务后，进入 `localhost` ，打开 devtools 面板。可以看到资源都通过 ServiceWorker 缓存加载进来了。
-
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/233327/1554261787790-8516ca44-1872-4e8d-b063-25dab02682b7.png#align=left&display=inline&height=364&name=image.png&originHeight=455&originWidth=1608&size=81057&status=done&width=1286)
-
-现在，我们打开离线模式，
-
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/233327/1554261882352-6ef567ff-b6c7-4916-aa5c-89fbbfc9d68f.png#align=left&display=inline&height=520&name=image.png&originHeight=650&originWidth=907&size=62316&status=done&width=726)
-
-离线模式下照样可以访问：
-
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/233327/1554261936715-57129714-6312-4e72-8679-7563ff529b83.png#align=left&display=inline&height=725&name=image.png&originHeight=906&originWidth=1920&size=401854&status=done&width=1536)
-
-最后，我们修改一下 html 的代码，并且更新一下 sw.js 中标识缓存版本的变量 VERSION：
-
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/233327/1554262033555-b36bfb5a-16ee-4079-a400-b2239a93ee9c.png#align=left&display=inline&height=733&name=image.png&originHeight=916&originWidth=1920&size=285955&status=done&width=1536)
-
-在第 2 次刷新后，通过上图可以看到，缓存版本内容已更新到 v2，并且左侧内容区已经被改变。
-
-## 参考链接
-
-- [本文全部代码地址](https://github.com/dadawanan/pwa-service-worker)
-- [Service Worker 生命周期](https://developers.google.com/web/fundamentals/primers/service-workers/lifecycle?hl=zh-cn)
-- [百度团队：怎么使用 ServiceWorker](https://lavas.baidu.com/pwa/offline-and-cache-loading/service-worker/how-to-use-service-worker)
-- [Web Worker 开发模式](https://www.villainhr.com/page/2016/08/22/Web%20Worker)

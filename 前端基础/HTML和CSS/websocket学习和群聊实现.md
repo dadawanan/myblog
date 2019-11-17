@@ -4,10 +4,6 @@ date: 2018-08-19
 permalink: "html5(6)"
 ---
 
-> `WebSocket`协议可以实现前后端全双工通信，从而取代浪费资源的长轮询。在此协议的基础上，可以实现前后端数据、多端数据，真正的**实时响应**。在学习`WebSocket`的过程中，实现了一个简化版群聊，过程和代码详细记录在这篇文章中。
-
-简易版的实时群聊效果图如下：
-![](https://static.godbmw.com/images/JavaScript/websocket学习和群聊实现/1.png)
 
 ## 1 概述
 
@@ -219,13 +215,3 @@ wss.on("connection", function connection(ws, req) {
 
 然后，我们打开 2 次编写的`html`代码，这相当于，打开 2 个客户端。来检测群聊功能。
 
-![](https://static.godbmw.com/images/JavaScript/websocket学习和群聊实现/1.png)
-
-## 5. 相关资料
-
-- 概念解释：
-  - http://www.ruanyifeng.com/blog/2017/05/websocket.html
-  - https://www.cnblogs.com/jingmoxukong/p/7755643.html
-- `ws`文档：https://www.npmjs.com/package/ws
-
-我的博客即将搬运同步至腾讯云+社区，邀请大家一同入驻：https://cloud.tencent.com/developer/support-plan?invite_code=3oxp5s3jfsw0g

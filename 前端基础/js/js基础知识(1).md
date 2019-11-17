@@ -4,7 +4,7 @@ date: "2019-08-18"
 permalink: "javascript(1)"
 ---
 
-### 普通函数和箭头函数的 this
+## 普通函数和箭头函数的 this
 
 还是一道经典题目，下面的这段代码的输出是什么？（为了方便解释，输出放在了注释中）
 
@@ -76,7 +76,7 @@ run.bind({ a: 2 }).bind({ a: 1 })(); // output: 2
 由于函数是一个单独的值，所以它可以在不同的环境（上下文）执行。函数在哪执行this会指向哪里。
 若函数在全局执行会取全局的变量，若函数在对象内执行则执行会取对象内部的变量。
 
-### 原始数据类型和判断方法
+## 原始数据类型和判断方法
 
 > 题目：JS 中的原始数据类型？
 
@@ -118,7 +118,7 @@ ECMAScript 中定义了 7 种原始类型：
 
 - Array.isArray()：ES6 新增，用来判断是否是'Array'。`Array.isArray({})`返回`false`。
 
-### Symbol类型在实际开发中的应用
+## Symbol类型在实际开发中的应用
 
 1.使用Symbol来替代常量,省去唯一写值的麻烦
 ```javascript
@@ -156,7 +156,7 @@ sl1 === sl2 //true  其中foo既是symbol注册表中键名，又是对自身的
 Symbol('bar') === Symbol('bar') //false  Symbol函数每次都会返回一个新的Symbol
 ```
 
-### 实现一个简单版的Symbol
+## 实现一个简单版的Symbol
 
 ```javascript
 
@@ -220,7 +220,7 @@ console.log(o); // Object { "@@foo_1": "hello", "@@foo_2": "hi" }
 ```
 
 
-### 原始类型转化
+## 原始类型转化
 
 当我们对一个“对象”进行数学运算操作时候，会涉及到对象 => 基础数据类型的转化问题。
 
@@ -292,7 +292,7 @@ console.log(1 instanceof Even); // output: false
 console.log(1 instanceof Odd); // output: true
 ```
 
-### 深拷贝和浅拷贝
+## 深拷贝和浅拷贝
 
 > 题目：实现对象的深拷贝。
 
@@ -334,7 +334,7 @@ console.log(1 instanceof Odd); // output: true
   </script>
   ```
 
-### JS 事件流
+## JS 事件流
 
 #### 事件冒泡和事件捕获
 
@@ -385,7 +385,7 @@ console.log(1 instanceof Odd); // output: true
 3. 冒泡 + 捕获：相当于每个节点同一个事件，至少 2 次处理机会
 4. 同一类事件，可以绑定多个函数
 
-### 常见的高阶函数
+## 常见的高阶函数
 
 没什么好说的，跑一下下面的代码就可以理解了：
 

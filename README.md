@@ -2,7 +2,7 @@
 home: true
 comment: false
 single: true
-heroImage: "./edit-tools.png"
+heroImage: "/edit-tools.png"
 actionLink: "/guide/"
 footer: MIT Licensed | Copyright © 2019 晚安
 ---

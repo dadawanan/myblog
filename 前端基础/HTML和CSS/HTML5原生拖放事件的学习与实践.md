@@ -40,19 +40,7 @@ permalink: "html5(4)"
 | -------- | ------------------------------------------------------------------------ |
 | drop     | 当被拖动元素在目的地元素里放下时触发，**一般需要取消浏览器的默认行为**。 |
 
-### 效果展示
 
-为了方便说明，先看代码实现的效果。请前往  [Github 仓库](https://github.com/dadawanan/html5-drag-drop)  下载 `demo.html`  和 `demo.js`  到本地，然后用 Chrome 打开 html 文件，初始效果如下图：
-
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/233327/1554824440934-6b099e29-5d03-47c8-9fcd-358dfac034ce.png#align=left&display=inline&height=489&name=image.png&originHeight=612&originWidth=329&size=8385&status=done&width=263)
-
-将图中的可拖拽元素，拖放到下面的容器中，这个过程的效果如下所示。箭头表示拖拽方向，方框代表动态改变的容器样式。
-
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/233327/1554824491746-4b790630-bb53-479a-9f5d-eaafef60cb23.png#align=left&display=inline&height=501&name=image.png&originHeight=627&originWidth=364&size=15595&status=done&width=291)
-
-最后，松开鼠标，将元素放入到下面的容器中，整个过程完成。
-
-![image.png](https://cdn.nlark.com/yuque/0/2019/png/233327/1554824562321-b6b1a435-27b5-43ca-abb8-7e63265b839e.png#align=left&display=inline&height=477&name=image.png&originHeight=596&originWidth=315&size=8094&status=done&width=252)
 
 ### 代码实现
 

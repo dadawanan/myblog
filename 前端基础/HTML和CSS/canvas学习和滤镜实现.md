@@ -4,12 +4,6 @@ date: 2018-08-20
 permalink: "html5(2)"
 ---
 
-> 最近学习了 HTML5 中的重头戏--`canvas`。利用 canvas，前端人员可以很轻松地、进行图像处理。其 API 繁多，这次主要学习常用的 API，并且完成以下两个代码：
->
-> 1. 实现去色滤镜：
->    ![](https://static.godbmw.com/images/JavaScript/canvas学习和滤镜实现/2.png)
-> 2. 实现负色(反色)滤镜
->    ![](https://static.godbmw.com/images/JavaScript/canvas学习和滤镜实现/3.png)
 
 ## 1 了解 canvas？
 
