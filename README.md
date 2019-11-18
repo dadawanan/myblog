@@ -8,7 +8,7 @@ footer: MIT Licensed | Copyright © 2019 晚安
 ---
 
 <div align="center" class="show-in-github">
-  <img src="https://xin-tan.com/edit-tools.png">
+  
   <br/><br/>
 </div>
 
@@ -23,7 +23,7 @@ footer: MIT Licensed | Copyright © 2019 晚安
 
 ## 🌐 前端方向
 
-- [JavaScript 面试笔记]()
+- [JavaScript 笔记]()
 - [ES6 难点]()
 
 

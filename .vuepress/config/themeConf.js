@@ -20,6 +20,12 @@ module.exports = {
           ]
         },
         {
+          text: 'TypeScript',
+          items: [
+            { text: 'TypeScript', link: '/passages/ts(2)/' },
+          ]
+        },
+        {
           text: 'Webpack4',
           items: [
             { text: 'Webpack4', link: '/passages/2018-07-29-webpack-demos-introduction/' },

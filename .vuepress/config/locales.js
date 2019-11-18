@@ -2,7 +2,7 @@ module.exports = {
   '/': {
     lang: 'zh-CN',
     title: '晚安De博客',
-    description: '记录每周的学习记录，周更'
+    description: '记录前端学习生活'
   },
   // '/en/': {
   //   lang: 'en-US',

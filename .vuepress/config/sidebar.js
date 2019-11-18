@@ -1,13 +1,3 @@
-const git = [
-  '标签应用和版本管理',
-  '批量修改log中的提交信息',
-  'stash解惑与妙用'
-]
-
-const cloud = [
-  '基于实时数据库-在线对战五子棋小游戏',
-  '基于ServerLess的极简网页计数器：源码分析与最佳实践',
-]
 
 const frontend = [
   {
@@ -72,7 +62,18 @@ const frontend = [
   //   ]
   // }
 ]
-
+const ts = [
+  {
+    title: 'TypeScript',
+    collapsable: false,
+    children: [
+      'ts基础类型(1)',
+      'ts基础类型(2)',
+      'ts基础类型(3)',
+      'ts进阶',
+    ]
+  }
+]
 const ui = [
   {
     title: 'css',
@@ -324,6 +325,7 @@ module.exports = {
   // '/Git实战手册/': git,
   // '/云开发技术/': cloud,
   '/前端基础/': frontend,
+  '/typescript/': ts,
   // '/设计模式手册/': design,
   // '/每周分享/': weekly,
   // '/webpack4系列教程/': webpack4,
