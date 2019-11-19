@@ -21,6 +21,7 @@ const frontend = [
       'HTML和CSS/FileAPI文件操作实战',
       'HTML和CSS/websocket学习和群聊实现',
       'HTML和CSS/ServiceWorker离线缓存实战',
+      'HTML和CSS/html5总结'
     ]
   },
   {
@@ -71,6 +72,8 @@ const ts = [
       'ts基础类型(2)',
       'ts基础类型(3)',
       'ts进阶',
+      '实战技巧',
+      '工具类型的设计'
     ]
   }
 ]
