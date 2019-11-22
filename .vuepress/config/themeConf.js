@@ -62,7 +62,7 @@ module.exports = {
       text: '框架和类库',
       items: [
         { text: 'TypeScript', link: '' },
-        { text: 'React', link: '' },
+        { text: 'React', link: '/passages/组件通信/' },
         { text: 'Vue', link: '' },
         { text: '多端开发', link: '' },
         { text: '数据流管理', link: '' },

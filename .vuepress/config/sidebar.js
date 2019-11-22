@@ -77,43 +77,17 @@ const ts = [
     ]
   }
 ]
-const ui = [
+const react = [
   {
-    title: 'css',
+    title: 'react',
     collapsable: false,
     children: [
-      'css/border-sizing属性详解和应用',
-      'css/Flex上手与实战',
-      'css/你了解css3的nth-child吗',
-    ]
-  },
-  {
-    title: 'scss',
-    collapsable: false,
-    children: [
-      'scss/基础：配置与运行',
-      'scss/进阶：继承、占位符和混合宏',
-      'scss/【译】逐步替换Sass'
-    ]
-  },
-  {
-    title: '动画设计',
-    collapsable: false,
-    children: [
-      '动画设计/字体特效',
-      '动画设计/输入框特效',
-      '动画设计/按钮特效',
-      '动画设计/Loader特效-基础篇',
-      '动画设计/Loader特效-进阶篇'
-    ]
-  },
-  {
-    title: '项目实战',
-    collapsable: false,
-    children: [
-      '项目实战/个人博客UI设计'
+      'reacthook/组件通信',
+      'reacthook/hookapi',
+      'reacthook/useEffect',
     ]
   }
+
 ]
 
 const design = [
@@ -329,7 +303,7 @@ module.exports = {
   // '/云开发技术/': cloud,
   '/前端基础/': frontend,
   '/typescript/': ts,
-  // '/设计模式手册/': design,
+  '/react/': react,
   // '/每周分享/': weekly,
   // '/webpack4系列教程/': webpack4,
   // '/NodeJS/': nodejs,
