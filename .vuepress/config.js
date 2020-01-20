@@ -3,7 +3,7 @@ const {
   themeConf,
   localesConf
 } = require('./config/')
-
+console.log(process.env.clientSecret)
 module.exports = {
   locales: localesConf,
   markdown: mdConf,
