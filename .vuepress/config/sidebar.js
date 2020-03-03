@@ -86,7 +86,15 @@ const react = [
       'reacthook/hookapi',
       'reacthook/useEffect',
     ]
-  }
+  },
+  {
+    title: '重学react',
+    collapsable: false,
+    children: [
+      '重学react/异步渲染',
+    ]
+  },
+  
 
 ]
 
@@ -297,13 +305,21 @@ const algorithmOffer = [
     ]
   },
 ]
-
+const algorithm = [{
+  title: '算法',
+  collapsable: false,
+  children: [
+    '排序算法'
+  ]
+}
+]
 module.exports = {
   // '/Git实战手册/': git,
   // '/云开发技术/': cloud,
   '/前端基础/': frontend,
   '/typescript/': ts,
   '/react/': react,
+  '数据结构和算法': algorithm
   // '/每周分享/': weekly,
   // '/webpack4系列教程/': webpack4,
   // '/NodeJS/': nodejs,

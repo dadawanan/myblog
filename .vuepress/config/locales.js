@@ -1,7 +1,7 @@
 module.exports = {
   '/': {
     lang: 'zh-CN',
-    title: '晚安De博客',
+    title: '晚安De前端',
     description: '记录前端学习生活'
   },
   // '/en/': {

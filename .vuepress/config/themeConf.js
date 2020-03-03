@@ -47,7 +47,7 @@ module.exports = {
         { text: 'JavaScript编码能力', link: '' },
         { text: '手动实现前端轮子', link: '' },
         { text: '数据结构', link: '' },
-        { text: '算法', link: '' },
+        { text: '算法', link: '/passages/2020-01-18-排序/' },
       ]
     },
     {
@@ -94,6 +94,13 @@ module.exports = {
       text: '踩过的坑',
       items: [
         { text: 'ReactNative', link: '' }
+      ]
+    },
+    {
+      text: '英语',
+      items: [
+        { text: '外文翻译', link: '' },
+        { text: '单词整理', link: '' }
       ]
     }
   ]
