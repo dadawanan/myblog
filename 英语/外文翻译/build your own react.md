@@ -1,4 +1,10 @@
-## 搭建你自己的react
+---
+title: "搭建自己的react"
+date: "2020-01-18"
+permalink: "buildyourownreact"
+---
+
+## 搭建自己的react
 We are going to rewrite React from scratch. Step by step. Following the architecture from the real React code but without all the optimizations and non-essential features.
 
 我们正准备去从头开始一步一步重写react。跟着原react体系结构但没有所有的优化和非本质的特征。

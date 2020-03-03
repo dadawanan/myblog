@@ -1,3 +1,9 @@
+---
+title: "englishwords"
+date: "2020-03-02"
+permalink: "englishwords"
+---
+
 scratch 滑痕、抓破
 architecture 建筑学 体系结构
 essential 本质

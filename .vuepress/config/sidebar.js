@@ -94,7 +94,7 @@ const react = [
       '重学react/异步渲染',
     ]
   },
-  
+
 
 ]
 
@@ -313,16 +313,26 @@ const algorithm = [{
   ]
 }
 ]
+
+const English = [{
+  title: '外文翻译',
+  collapsable: false,
+  children: [
+    '外文翻译/build your own react'
+  ]
+}
+]
+
 module.exports = {
   // '/Git实战手册/': git,
   // '/云开发技术/': cloud,
   '/前端基础/': frontend,
   '/typescript/': ts,
   '/react/': react,
-  '数据结构和算法': algorithm
+  '数据结构和算法': algorithm,
   // '/每周分享/': weekly,
   // '/webpack4系列教程/': webpack4,
   // '/NodeJS/': nodejs,
-  // '/UI设计/': ui,
+  '/英语/': English,
   // '/剑指offer刷题笔记/': algorithmOffer,
 }
