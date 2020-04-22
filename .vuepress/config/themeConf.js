@@ -53,8 +53,7 @@ module.exports = {
     {
       text: '运行环境',
       items: [
-        { text: '浏览器API', link: '' },
-        { text: '浏览器原理', link: '' },
+        { text: '浏览器', link: '/passages/浏览器缓存/' },
         { text: 'Node', link: '' },
       ]
     },
