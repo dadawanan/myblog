@@ -94,6 +94,13 @@ module.exports = {
       items: [
         { text: 'ReactNative', link: '' }
       ]
+    },
+    {
+      text: '英语',
+      items: [
+        { text: '外文翻译', link: '/passages/buildyourownreact/' },
+        { text: '单词整理', link: '/passages/englishwords/' }
+      ]
     }
   ]
 }

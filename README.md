@@ -7,20 +7,8 @@ actionLink: "/guide/"
 footer: MIT Licensed | Copyright © 2019 晚安
 ---
 
-<div align="center" class="show-in-github">
-  
-  <br/><br/>
-</div>
 
-<!-- <div align="center" class="show-in-github">
-  <a href="https://xin-tan.com/"> <img src="https://img.shields.io/badge/online-阅读-success.svg?style=popout-square"></a>
-  <a href="https://github.com/dadawanan"> <img src="https://img.shields.io/badge/author-心谭-ff69b4.svg?style=popout-square"></a>
-  <a href="https://github.com/dadawanan/blog/blob/master/LICENSE"> <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=popout-square"></a>
-  <a href="https://xin-tan.com/"> <img src="https://img.shields.io/badge/about-前端|算法|UI|工具-fa8c16.svg?style=popout-square"></a>
-  <br/><br/>
-</div> -->
-
-
+<!-- 
 ## 🌐 前端方向
 
 - [JavaScript 笔记]()
@@ -30,7 +18,7 @@ footer: MIT Licensed | Copyright © 2019 晚安
 
 ## 🔧 webpack
 
-- [Webpack4]()
+- [Webpack4]() -->
 
 
 ## 📮 联系
@@ -38,6 +26,7 @@ footer: MIT Licensed | Copyright © 2019 晚安
 - **微信**: fangyiquan520
 - **Email**: h1159827456@gmail.com
 - **QQ**: 1159827456
+
 
 <style scoped>
 main ul {
@@ -48,3 +37,6 @@ main ul {
   display: none;
 }
 </style>
+<p style="text-align:center">
+<a href='http://beian.miit.gov.cn' >浙ICP备19041951号-1</a>
+</p>
